@@ -7,10 +7,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            string str = Console.ReadLine();
-            double number = double.Parse(str, CultureInfo.InvariantCulture);
-             
-            Console.WriteLine(number + 1);
+            int a = 2;
+            int b = 3;
+            int c = (a + b) * 2;
+            Console.WriteLine(c);
         
         }  
     }
