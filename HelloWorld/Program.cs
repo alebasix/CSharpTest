@@ -7,9 +7,12 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            double angle = 3.14159;
-            Console.WriteLine(Math.Sin(angle));
-        
-        }  
+            var a = 2;
+            var b = 4;
+            var c = a * b;
+            Console.WriteLine(c);
+            var d = c.ToString();
+
+           }  
     }
 }
