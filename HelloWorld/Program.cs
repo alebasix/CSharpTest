@@ -9,8 +9,9 @@ namespace HelloWorld
         {
             int a = 2;
             int b = 3;
-            int c = (a + b) * 2;
-            Console.WriteLine(c);
+            int c = b / a;
+            double d = (double)b / a;
+            Console.WriteLine(d);
         
         }  
     }
